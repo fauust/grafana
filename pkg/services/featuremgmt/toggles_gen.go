@@ -390,4 +390,8 @@ const (
 	// FlagGrafanaAPIServer
 	// Enable Kubernetes API Server for Grafana resources
 	FlagGrafanaAPIServer = "grafanaAPIServer"
+
+	// FlagAwsAsyncQueryCaching
+	// Enable caching for async query for Redshift and Athena. Requires useCachingService and the datasource to have caching and async query support enabled
+	FlagAwsAsyncQueryCaching = "awsAsyncQueryCaching"
 )
